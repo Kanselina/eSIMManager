@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.esim.manager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions for Alarm and Notifications -->
+12    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+12-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+13-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:7:5-74
+13-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:7:22-71
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:8:5-77
+14-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:8:22-74
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\e1bb1cc7d8636e755c01d17640d02ba4\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.esim.manager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\e1bb1cc7d8636e755c01d17640d02ba4\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\e1bb1cc7d8636e755c01d17640d02ba4\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.esim.manager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\e1bb1cc7d8636e755c01d17640d02ba4\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\e1bb1cc7d8636e755c01d17640d02ba4\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:10:5-59:19
+23        android:allowBackup="true"
+23-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\e1bb1cc7d8636e755c01d17640d02ba4\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:12:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:13:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:17:9-35
+33        android:theme="@style/Theme.ESimManager" >
+33-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:18:9-49
+34        <activity
+34-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:21:9-28:20
+35            android:name="com.esim.manager.ui.MainActivity"
+35-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:22:13-44
+36            android:exported="true" >
+36-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:23:13-36
+37            <intent-filter>
+37-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:24:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:25:17-69
+38-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:25:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:26:17-77
+40-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:30:9-33:58
+44            android:name="com.esim.manager.ui.AddEditActivity"
+44-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:31:13-47
+45            android:exported="false"
+45-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:32:13-37
+46            android:windowSoftInputMode="adjustResize" />
+46-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:33:13-55
+47
+48        <!-- Receiver for the App Widget -->
+49        <receiver
+49-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:36:9-47:20
+50            android:name="com.esim.manager.widget.ESimWidgetProvider"
+50-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:37:13-54
+51            android:exported="true" >
+51-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:38:13-36
+52            <intent-filter>
+52-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:39:13-43:29
+53                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+53-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:40:17-84
+53-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:40:25-81
+54                <!-- Broadcast action for refreshing widget data -->
+55                <action android:name="com.esim.manager.ACTION_WIDGET_REFRESH" />
+55-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:42:17-81
+55-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:42:25-78
+56            </intent-filter>
+57
+58            <meta-data
+58-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:44:13-46:60
+59                android:name="android.appwidget.provider"
+59-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:45:17-58
+60                android:resource="@xml/esim_widget_info" />
+60-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:46:17-57
+61        </receiver>
+62
+63        <!-- Service for Widget RemoteViews -->
+64        <service
+64-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:50:9-52:72
+65            android:name="com.esim.manager.widget.ESimWidgetService"
+65-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:51:13-53
+66            android:permission="android.permission.BIND_REMOTEVIEWS" />
+66-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:52:13-69
+67
+68        <!-- Receiver for eSIM Expiration Reminders -->
+69        <receiver
+69-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:55:9-57:40
+70            android:name="com.esim.manager.utils.ESimReminderReceiver"
+70-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:56:13-55
+71            android:exported="false" />
+71-->C:\Users\13430\Downloads\eSIMManager_v2\eSIMManager\app\src\main\AndroidManifest.xml:57:13-37
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\27513537f8811a0edda000cdf9ea69dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\27513537f8811a0edda000cdf9ea69dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.esim.manager.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\27513537f8811a0edda000cdf9ea69dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\27513537f8811a0edda000cdf9ea69dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\27513537f8811a0edda000cdf9ea69dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\27513537f8811a0edda000cdf9ea69dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\27513537f8811a0edda000cdf9ea69dd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1be4a9dbbe93a2be5b2fae27afec981b\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1be4a9dbbe93a2be5b2fae27afec981b\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1be4a9dbbe93a2be5b2fae27afec981b\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\13430\.gradle\caches\9.0-milestone-1\transforms\1ccf3cecbc71da1965aa0f725cc40cd4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

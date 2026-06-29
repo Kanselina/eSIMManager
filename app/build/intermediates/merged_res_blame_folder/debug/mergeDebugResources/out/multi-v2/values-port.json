@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.esim.manager.app-mergeDebugResources-30:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\13430\\.gradle\\caches\\9.0-milestone-1\\transforms\\292b1ff7c6311b9bd37e7b03910f67ca\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

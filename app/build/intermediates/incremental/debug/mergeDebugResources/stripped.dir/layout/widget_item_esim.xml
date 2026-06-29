@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetItemRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card_esim_white"
+    android:padding="12dp">
+
+    <!-- Row 1: Provider & Status -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvWidgetProvider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airalo"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/tvWidgetStatus" />
+
+        <TextView
+            android:id="@+id/tvWidgetStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="使用中"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <!-- Row 2: Country / Region -->
+    <TextView
+        android:id="@+id/tvWidgetCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日本 (Japan)"
+        android:textColor="#757575"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp" />
+
+    <!-- Row 3: Phone Number (NEW!) -->
+    <TextView
+        android:id="@+id/tvWidgetPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📞 +81 90-1234-5678"
+        android:textColor="#1A73E8"
+        android:textSize="11sp"
+        android:layout_marginTop="2dp"
+        android:visibility="gone" />
+
+    <!-- Row 4: Data Usage -->
+    <LinearLayout
+        android:id="@+id/widgetDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvWidgetDataLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流量: "
+            android:textColor="#757575"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tvWidgetData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 GB"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tvWidgetDataSep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" | "
+            android:textColor="#E0E0E0"
+            android:textSize="11sp"
+            android:layout_marginHorizontal="4dp" />
+
+        <TextView
+            android:id="@+id/tvWidgetDataRemainingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剩余: "
+            android:textColor="#757575"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tvWidgetDataRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.2 GB"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <!-- Row 5: Balance & Expiry -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tvWidgetBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.50 USD"
+            android:textColor="#1A73E8"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tvWidgetExpiry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="到期: 2026-12-31"
+            android:textColor="#757575"
+            android:textSize="11sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBaseline="@+id/tvWidgetBalance" />
+
+    </RelativeLayout>
+
+    <!-- Row 6: Note (NEW!) -->
+    <TextView
+        android:id="@+id/tvWidgetNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="备注: "
+        android:textColor="#5D4037"
+        android:background="#FFF9C4"
+        android:padding="4dp"
+        android:textSize="10sp"
+        android:layout_marginTop="6dp"
+        android:visibility="gone" />
+
+</LinearLayout>

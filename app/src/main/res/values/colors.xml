@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Elegant Color Palette (Material Theme) -->
+    <color name="primary">#1A73E8</color> <!-- Google Blue -->
+    <color name="primary_dark">#1557B0</color>
+    <color name="primary_light">#E8F0FE</color>
+    <color name="accent">#34A853</color> <!-- Elegant Green -->
+    
+    <color name="background">#F8F9FA</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="status_active_bg">#E6F4EA</color>
+    <color name="status_active_text">#137333</color>
+    <color name="status_inactive_bg">#F1F3F4</color>
+    <color name="status_inactive_text">#5F6368</color>
+    
+    <color name="divider">#DADCE0</color>
+</resources>

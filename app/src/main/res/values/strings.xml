@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">eSIM Manager</string>
+    <string name="title_activity_main">eSIM Manager</string>
+    <string name="add_esim">添加 eSIM</string>
+    <string name="edit_esim">编辑 eSIM</string>
+    <string name="provider">选择服务商</string>
+    <string name="custom_provider">自定义服务商</string>
+    <string name="country_region">选择国家/地区</string>
+    <string name="custom_country">自定义国家/地区</string>
+    <string name="balance">余额</string>
+    <string name="currency">币种</string>
+    <string name="expiry_date">到期日期</string>
+    <string name="notes">备注信息 (选填)</string>
+    <string name="save">保存设置</string>
+    <string name="delete">删除此卡</string>
+    <string name="cancel">取消</string>
+    <string name="empty_esim_list">暂无 eSIM 卡
+点击下方「+」按钮开启您的 eSIM 优雅管理</string>
+    <string name="widget_title">eSIM 信息管理汇总</string>
+    <string name="widget_empty">无 eSIM 数据</string>
+    <string name="active">启用中</string>
+    <string name="inactive">已禁用</string>
+    <string name="select_date">选择到期日期</string>
+    <string name="reminder_settings">到期提醒设置</string>
+    <string name="widget_theme_settings">桌面组件配色设置</string>
+</resources>

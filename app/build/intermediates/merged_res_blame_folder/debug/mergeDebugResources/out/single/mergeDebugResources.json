@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_dark.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_dark.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_purple.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_purple.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.esim.manager.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_blue.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_blue.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_pink.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_pink.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_green.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_green.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.esim.manager.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_white.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_white.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_yellow.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_yellow.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_dark.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_dark.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.esim.manager.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_yellow.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_yellow.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_purple.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_purple.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/layout_widget_item_esim.xml.flat",
+        "source": "com.esim.manager.app-main-34:/layout/widget_item_esim.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_purple.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_purple.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_grey.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_grey.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/layout_item_esim.xml.flat",
+        "source": "com.esim.manager.app-main-34:/layout/item_esim.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_spinner.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_spinner.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_orange.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_orange.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_teal.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_teal.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_green.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_green.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_yellow.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_yellow.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/layout_activity_add_edit.xml.flat",
+        "source": "com.esim.manager.app-main-34:/layout/activity_add_edit.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_dark.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_dark.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_pink.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_pink.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_white.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_white.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_grey.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_grey.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_status_active.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_status_active.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_pink.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_pink.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_teal.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_teal.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_orange.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_orange.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_white.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_white.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_blue.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_blue.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/layout_widget_layout.xml.flat",
+        "source": "com.esim.manager.app-main-34:/layout/widget_layout.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_blue.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_blue.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_card_esim_grey.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_card_esim_grey.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/xml_esim_widget_info.xml.flat",
+        "source": "com.esim.manager.app-main-34:/xml/esim_widget_info.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_widget_container_orange.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_widget_container_orange.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_switch_container.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_switch_container.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_teal.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_teal.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_color_preview_green.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/color_preview_green.xml"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.esim.manager.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.esim.manager.app-debug-32:/drawable_bg_status_inactive.xml.flat",
+        "source": "com.esim.manager.app-main-34:/drawable/bg_status_inactive.xml"
+    }
+]
