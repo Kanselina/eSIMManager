@@ -25,6 +25,8 @@
 ---
 
 ## 📱 应用截图
+> 应用图标：
+<img width="643" height="647" alt="image" src="https://github.com/user-attachments/assets/49622346-b8f7-4f09-ac89-1474ca76ef5a" />
 
 > 应用截图：
 
